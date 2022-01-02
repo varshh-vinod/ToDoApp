@@ -1,0 +1,19 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function makeJSON(){
+            var tasks=[];
+            localStorage.tasks = JSON.stringify(tasks);
+        }
+        function deleteJSON()
+        {
+            delete localStorage.tasks;
+        }
+    </script>
+</head>
+<body>
+    <button onclick="deleteJSON()">Delete The JSON</button>
+    <button onclick="makeJSON()">Make the JSON</button>
+</body>
+</html>
+>

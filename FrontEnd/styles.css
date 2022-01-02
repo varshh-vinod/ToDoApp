@@ -1,0 +1,82 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 10000px
+  background-color: #D2B4DE;
+}
+
+li button {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  width: 200px;
+  height: 200px;
+  background-color: #D2B4DE;
+  text-decoration: none;
+}
+
+button{
+      height:50px;
+      width: 100%;
+      font-size: 18px;
+      padding: 20px 10px;
+      border: 1px solid #ddd;
+}
+
+li button:hover {
+  background-color:#6C3483 ;
+  color: white;
+}
+
+#seperate{
+    height:42px;
+    width:100px;
+}
+.Delete{
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(50%, -100%);
+}
+
+.Edit{
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(83%, -200%);
+}
+
+body{
+    background-color: #EBDEF0;
+}
+
+p{
+   position:absolute; left:500px; top:20px;
+}
+
+
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+}
+
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
